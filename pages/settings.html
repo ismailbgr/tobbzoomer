@@ -1,0 +1,38 @@
+
+<div class="page">
+  <div class="navbar">
+    <div class="navbar-bg"></div>
+    <div class="navbar-inner sliding">
+      <div class="left">
+        <a href="#" class="link back">
+          <i class="icon icon-back"></i>
+          <span class="if-not-md">Geri</span>
+        </a>
+      </div>
+      <div class="title">Ayarlar</div>
+    </div>
+  </div>
+  <div class="page-content">
+    <div class="block-title">
+      Ayarlar
+    </div>
+    
+    <div class="block block-strong">
+
+      <span>Karanlık Mod</span>
+          <label id="dmodeswitch" class="toggle toggle-init color-blue">
+            <input type="checkbox"/>
+            <span class="toggle-icon"></span>
+
+          </label>
+
+    </div>
+
+    <div class="block block-strong">
+
+      
+      <p><a class="button button-fill" href="/edit/">Dersleri Düzenle</a></p>
+      <p><button class="button button-fill" onclick="app.dialog.confirm('Uygulamayı Sıfırlamak istediğinizden emin misiniz?',()=>{localStorage.clear();location.reload()})">SIFIRLA</button></p>
+    </div>
+  </div>
+</div>
